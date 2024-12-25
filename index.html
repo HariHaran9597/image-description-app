@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Description App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Description App</h1>
+    <!-- Upload Section -->
+    <label for="imageUpload">Choose an Image</label>
+    <input type="file" id="imageUpload" accept="image/*">
+
+    <!-- Image Preview -->
+    <div id="imagePreview">
+        <p>No image selected</p>
+    </div>
+
+    <!-- Action Button -->
+    <button id="describeButton">Generate Description</button>
+
+    <!-- Result Section -->
+    <div id="result">
+        <h2>Description:</h2>
+        <p id="descriptionText"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
