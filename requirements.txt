@@ -1,0 +1,13 @@
+flask
+tensorflow
+uvicorn[standard]
+torch
+torchvision
+pillow
+numpy
+transformers
+python-multipart  
+pydantic
+python-dotenv 
+pytest
+httpx
